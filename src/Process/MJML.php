@@ -70,7 +70,8 @@ class MJML
 
         if (! File::exists($this->compiledPath)) {
             $this->process = new Process($this->buildCmdLineFromConfig());
-            $this->process->run();
+            $env = ["PATH" => "/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin"];
+            $this->process->run(null,$env);
 
             if (! $this->process->isSuccessful()) {
                 throw new ProcessFailedException($this->process);
