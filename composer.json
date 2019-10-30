@@ -1,10 +1,17 @@
 {
-    "name": "asahasrabuddhe/laravel-mjml",
+    "name": "jacksuzuki/laravel-mjml",
     "description": "A package that enables using MJML with Laravel Mailables.",
+    "version": "0.3.0",
+    "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Ajitem Sahasrabuddhe",
             "email": "ajitem.s@outlook.com"
+        }
+        {
+            "name": "Shuichi Suzuki",
+            "email": "syuszk@gmail.com"
         }
     ],
     "autoload": {
