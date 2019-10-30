@@ -1,7 +1,7 @@
 {
     "name": "jacksuzuki/laravel-mjml",
     "description": "A package that enables using MJML with Laravel Mailables.",
-    "version": "0.3.0",
+    "version": "0.3.2",
     "type": "library",
     "license": "MIT",
     "authors": [
